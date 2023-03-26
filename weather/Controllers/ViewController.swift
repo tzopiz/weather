@@ -17,12 +17,14 @@ class ViewController: UIViewController {
     private let infoWeatherLabel = UILabel()
     private let temp = UILabel()
     private let weatherImageView = UIImageView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureAppearence()
         startLocationManager()
         
     }
+    
     private func configureAppearence() {
         let imageView = UIImageView(image: #imageLiteral(resourceName: "back_weather"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -34,7 +36,6 @@ class ViewController: UIViewController {
             imageView.widthAnchor.constraint(equalTo: view.widthAnchor)
         ])
         
-        
         stackView.axis = .vertical
         stackView.spacing = 50
         view.addSubview(stackView)
@@ -44,22 +45,18 @@ class ViewController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
         ])
-        
       
         nameCityLabel.textColor = .white
         nameCityLabel.text = " nameCityLabel "
         nameCityLabel.font =  UIFont(name: "HelveticaNeue", size: 40)
-        
       
         infoWeatherLabel.textColor = .white
         infoWeatherLabel.text = " infoWeatherLabel "
         infoWeatherLabel.font =  UIFont(name: "HelveticaNeue", size: 40)
-        
        
         temp.textColor = .white
         temp.text = " temp "
         temp.font =  UIFont(name: "HelveticaNeue", size: 40)
-        
       
         weatherImageView.translatesAutoresizingMaskIntoConstraints = false
         stackView.addArrangedSubview(nameCityLabel)

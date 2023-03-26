@@ -13,7 +13,6 @@
 		0AC6FCF729CF7CAE00A42C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6FCF629CF7CAE00A42C7F /* Assets.xcassets */; };
 		0AC6FCFA29CF7CAE00A42C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6FCF829CF7CAE00A42C7F /* LaunchScreen.storyboard */; };
 		0AC6FD0529CF876B00A42C7F /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6FD0429CF876B00A42C7F /* DataModels.swift */; };
-		0AC6FD0729CF8FE900A42C7F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6FD0629CF8FE900A42C7F /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		0AC6FCF929CF7CAE00A42C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AC6FCFB29CF7CAE00A42C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC6FD0429CF876B00A42C7F /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
-		0AC6FD0629CF8FE900A42C7F /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 		0AC6FD0129CF7D0C00A42C7F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				0AC6FD0629CF8FE900A42C7F /* DataSource.swift */,
 				0AC6FCF629CF7CAE00A42C7F /* Assets.xcassets */,
 				0AC6FCF829CF7CAE00A42C7F /* LaunchScreen.storyboard */,
 				0AC6FCFB29CF7CAE00A42C7F /* Info.plist */,
@@ -167,7 +164,6 @@
 				0AC6FCF229CF7CAC00A42C7F /* ViewController.swift in Sources */,
 				0AC6FD0529CF876B00A42C7F /* DataModels.swift in Sources */,
 				0AC6FCEE29CF7CAC00A42C7F /* AppDelegate.swift in Sources */,
-				0AC6FD0729CF8FE900A42C7F /* DataSource.swift in Sources */,
 				0AC6FCF029CF7CAC00A42C7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
